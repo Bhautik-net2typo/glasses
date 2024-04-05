@@ -1,0 +1,400 @@
+/* 
+767
+991
+1024
+1199
+1600
+1920 
+*/
+
+
+
+@media (max-width: 1920px) {
+    .container{
+        padding-inline: 250px;
+    }
+
+
+    footer .email-btn input{
+        width: 250px;
+    }
+
+}
+
+
+
+@media (max-width: 1600px) {
+    .container{
+        /* padding-inline: 216px; */
+        padding-inline: 216px;
+    }
+
+    .glasses{
+        padding-inline: 60px;
+    }
+
+    footer .email-btn input{
+        width: 200px;
+    }
+
+    .quality li{
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+@media (max-width: 1199px) {
+    .container{
+        padding-inline: 130px;
+    }
+
+    .glasses{
+        padding-inline: 40px;
+    }
+    
+    .direction{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+
+    .pr-btn{
+        margin-top: 25px;
+        padding: 12px 28px;
+    } 
+
+    .navigation{
+        margin-left: 0;
+        gap: 40px;
+    }
+
+    .navbar{
+        gap: 40px;
+    }
+
+    .hero-body{
+        top: 40%;
+        left: 20%;
+    }
+
+    .aboutus{
+        padding-block: 45px;
+
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .aboutus img{
+        width: 50%;
+    }
+
+    .aboutus .heading{
+        margin-top: 2rem;
+    }
+
+    .glasses{
+        text-align: center;
+        padding-block: 3rem;
+    } 
+
+    .quality{
+        padding-block: 45px;
+    }
+
+    .quality ol{
+        align-items: center;
+    }
+
+    .quality li{
+        padding-bottom: 35px;
+    }
+
+    .quality img{
+        transform: translate(0);
+    }
+
+    .book .price-tage{
+        bottom: 15%;
+        right: 20%;
+    }
+
+    .buy .img-wraper{
+        padding-block: 70px;
+    }
+
+    .testimonial{
+        padding-block: 100px;
+    }
+
+    footer .useful-links{
+        grid-template-columns: 1fr; 
+        justify-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    footer .email-btn input{
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .container{
+        padding-inline: 130px;
+    }
+
+    .glasses{
+        padding-inline: 20px;
+    }
+
+    .heading{
+        font-size: 35px;
+        width: max-content;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .navigation {
+        position: absolute;
+        background: #1d1d1dba;
+        backdrop-filter: blur(15px);
+        right: 0;
+        top: 2rem;
+        z-index: 10;
+        padding: 4rem;
+        text-align: center;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .navigation li{
+        margin-bottom: 1rem;
+    }
+
+    .login-btn{
+        margin-left: auto;
+    }
+
+    .search-btn{
+        margin-right: auto;
+    }
+
+    .hamberger-icon{
+        display: block;
+        z-index: 20;
+    }
+
+    .navbar{
+        gap: 20px;
+    }
+
+    .book .price-tage{
+        width: 70px;
+    }
+
+    .book .price-tage p{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .container{
+        padding-inline: 60px;
+    }
+
+    .heading{
+        margin-bottom: 15px;
+    }
+
+    .heading:first-letter{
+        font-size: 70px;
+    }
+
+
+    .navigation{
+        display: none;
+    } 
+
+    .hero-body{
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: #00000030;
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .hero-body h1{
+        font-size: 60px;
+    }
+
+    .hero-body span {
+        font-size: 40px;
+    }
+
+    
+    .card{
+        width: 300px;
+        height: auto;
+        padding: 3rem;
+    }
+
+    .card p{
+        margin-top: 3rem;
+    }
+    
+    .quality{
+        padding-top: 0;
+    }
+
+    .quality li{
+        padding-bottom: 20px;
+    }
+
+    
+    .book .book-contant{
+        display: grid;
+        padding: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .book .img-wraper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .book .heading{
+        width: fit-content;
+        font-size: 35px;
+    }
+
+    .book .pr-btn{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .buy{
+        padding-block: 50px;
+    }
+
+    .buy .img-wraper{
+        padding-block: 30px;
+    }
+
+    .buy img{
+        width: 60%;
+    }
+
+    .testimonial{
+        padding-block: 50px;
+    }
+
+    .contact-us h3{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .useful-links{
+        padding-top: 40px
+    }
+}  
+
+
+@media (max-width: 480px) {
+    .container{
+        padding: 30px;
+    }
+
+    .glasses{
+        padding-inline: 20px;
+    }
+
+    .heading{
+        line-height: 46px;
+    }
+
+    p{
+        line-height: 1.3;
+    }
+    
+    .link-wraper{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero-body {
+        width: 80%;
+        top: 15%;
+        left: 0;
+        transform: translateX(14%);
+        padding: 8px;
+        padding-block: 2rem;
+        border-radius: 1rem;
+    }
+
+    .hero .text-at-corner{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+
+    .swiper-button-next{
+        top: 322px;
+    }
+
+    .hero-body h1{
+        font-size: 30px;
+    }
+
+    .hero-body span {
+        font-size: 20px;
+    }
+
+    .aboutus .heading{
+        margin-top: .5rem;
+        line-height: 44px;
+        padding-bottom: 8px;
+    }
+
+    .card{
+        width: 200px;
+        padding: 2rem;
+    }
+
+    .card p{
+        margin-top: 1rem;
+    }
+
+    .book {
+        grid-template-columns:  1fr;
+    }
+
+    .quality li{
+        padding-bottom: 10px;
+    }
+}

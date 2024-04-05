@@ -1,0 +1,198 @@
+:root {
+  --bg-primary: #eb19b7;
+  --bg-secondary: #bcc4f2;
+  --bg-dark: #1d1d1d;
+
+  --text-primary: #bcc4f2;
+  --text-secondary: #909090;
+  --text-acescent: #d7cff4;
+  --text-gray: #7c7b7b;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary) !important;
+}
+
+.bg-dark {
+  background-color: var(--bg-dark) !important;
+}
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.text-acescent {
+  color: var(--text-acescent) !important;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+/* -----------------------------Classes-------------------------------- */
+.container{
+  padding: 0;
+  margin-inline: auto;
+}
+
+
+body{
+    font-family: "Poppins";
+}
+
+.box {
+  padding-block: 120px;
+  display: grid;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+  padding: 12px 55px;
+  color: white;
+  font-size: large;
+  transition: all 200ms;
+  margin-top: 40px;
+  width: fit-content;
+  background-color: var(--bg-primary);
+}
+
+.heading {
+  margin-bottom: 65px;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.heading:first-letter {
+  font-size: 95px;
+}
+
+.heading span {
+  color: var(--text-primary);
+}
+
+/* -----------------------------hero-------------------------------- */
+
+.hero-body {
+  position: absolute;
+  top: 40%;
+  left: 216px;
+}
+
+.hero-swiper img {
+  min-height: 89vh;
+}
+
+.hero-body h1 {
+  font-size: 92px;
+  line-height: 1;
+}
+
+.hero-body span {
+  font-size: 63px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  font-size: 2.9em;
+  left: 0px;
+}
+
+.swiper-button-prev {
+  top: 255px;
+  color: black;
+  background-color: white;
+}
+
+.swiper-button-next {
+  top: 440px;
+  color: white;
+  background-color: var(--bg-primary);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: none;
+}
+
+
+.text-at-corner {
+  position: absolute;
+  top: 76px;
+  right: 76px;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  letter-spacing: -5px;
+  color: white;
+}
+
+/* -----------------------------glasses-------------------------------- */
+
+
+
+
+/* -----------------------------quality-------------------------------- */
+
+.quality-list li:first-child {
+    color: #42b8e4;
+}
+
+
+.quality-list{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.quality-list p{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+/* -----------------------------book-------------------------------- */
+
+.book-img-wraper{
+    background-color: #d7dce0;
+}
+
+
+
+.book-content{
+    padding-left: 200px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.book .heading{
+    width: min-content;
+}
+
+.book .heading:first-letter{
+    font-size: inherit;
+}
+
+
+
+
+
+.submit-btn{
+    width: fit-content;
+}

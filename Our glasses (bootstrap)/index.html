@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="/bootstrap.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/responsive.css" />
+  <title>Sglasses</title>
+</head>
+
+<body>
+  <!------------------------------------------------
+                             header
+    ---------------------------------------------- -->
+  <header id="top">
+    <nav class="navbar navbar-expand-md bg-dark p-4" data-bs-theme="dark">
+      <a href="#top" class="navbar-brand fw-bold fs-2 text-acescent me-md-3 me-lg-5 pe-xl-5">SGLASS</a>
+      <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <i class="fa-solid fa-bars text-acescent border-secondary"></i>
+      </button>
+
+      <div id="navbar" class="collapse navbar-collapse pe-3 pe-md-0 ps-md-2 ps-lg-4 ps-xl-5 ms-lg-4 ms-xl-5">
+        <ul class="navbar-nav align-items-lg-center align-items-end w-100 gap-1 gap-md-2 gap-lg-4 gap-xl-5">
+          <li class="nav-item">
+            <a href="#top" class="nav-link active">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#shop" class="nav-link">shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#glasses" class="nav-link">glasses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contanct" class="nav-link">contact us</a>
+          </li>
+          <li class="nav-item ms-md-auto">
+            <a href="#" class="nav-link">longin</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!------------------------------------------------
+                             hero
+        ---------------------------------------------- -->
+
+    <section class=" hero-swiper swiper">
+      <div class="swiper-wrapper h-100">
+        <div class="swiper-slide h-100">
+          <div>
+            <img src="./assets/hero-bg.png" class="position-relative img-fluid object-fit-cover"
+              alt="background image of a glasses" />
+          </div>
+          <div class="hero-body">
+            <h1 class="">WELCOME TO</h1>
+            <span class="text-white d-block lh-1 fw-bold">GLASSES SHOP</span>
+            <button class="btn bg-dark text-white">Buy Now</button>
+          </div>
+          <p class="text-at-corner lh-lg fs-5">GLASSES</p>
+        </div>
+        <!--slide-->
+        <div class="swiper-slide">
+          <div class="object-fit-cover">
+            <img src="./assets/hero-bg.png" class="position-relative img-fluid object-fit-cover"
+              alt="background image of a glasses" />
+          </div>
+          <div class="hero-body">
+            <h1 class="">WELCOME TO</h1>
+            <span class="text-white d-block lh-1 fw-bold">GLASSES SHOP</span>
+            <button class="btn bg-dark text-white">Buy Now</button>
+          </div>
+          <p class="text-at-corner lh-lg fs-5">GLASSES</p>
+        </div>
+        <!--slide-->
+        <div class="swiper-slide">
+          <div class="object-fit-cover">
+            <img src="./assets/hero-bg.png" class="position-relative img-fluid object-fit-cover"
+              alt="background image of a glasses" />
+          </div>
+          <div class="hero-body">
+            <h1 class="">WELCOME TO</h1>
+            <span class="text-white d-block lh-1 fw-bold">GLASSES SHOP</span>
+            <button class="btn bg-dark text-white">Buy Now</button>
+          </div>
+          <p class="text-at-corner lh-lg fs-5">GLASSES</p>
+        </div>
+        <!--slide-->
+      </div>
+
+      <div class="swiper-button-prev">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div class="swiper-button-next">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+      <div class="swiper-pagination text-white p-5 text-end"></div>
+    </section>
+  </header>
+
+  <main>
+    <!------------------------------------------------
+                             aboutus
+        ---------------------------------------------- -->
+    <section class="container box d-flex row text-center text-lg-start g-0" id="about">
+
+      <div class="col-12 col-lg-6 order-last order-lg-first">
+        <h2 class="heading"><span>About</span> our shop</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout. The point
+          of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters,
+        </p>
+        <button class="btn">Read More</button>
+      </div>
+      <div class="col-12 col-lg-6 order-first order-lg-last mb-4 mb-lg-0 px-5 px-lg-0 ">
+        <div class="px-5 px-lg-0">
+          <img class="object-fit-contain img-fluid px-5 px-lg-3 my-auto" src="./assets/glasses.png"
+            alt="image of glasses that reflect harmful light" />
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------
+                             glasses
+    ---------------------------------------------- -->
+
+    <section class="box bg-secondary" id="shop">
+      <div class="container p-0">
+        <h2 class="heading text-secondary text-center text-lg-start">
+          <span class="text-black">Our</span> Glasses
+        </h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  gy-4 gx-0 gx-md-4 mb-3">
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-3 px-4 border-0 rounded-3 text-center">
+              <img src="./assets/glasses-2.png" class="img-fluid card-img-top mt-4" alt="image of the glasses" />
+              <div class="mt-auto">
+                <p class="price mt-4 mb-1 fs-4">$50</p>
+                <a href="#" class="card-link text-primary fs-5">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-100 d-flex">
+          <button class="btn mx-auto mt-5">See More</button>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------
+                             quality
+    ---------------------------------------------- -->
+    <section class="container box row g-0 d-flex text-center text-lg-start" id="glasses">
+      <div class="col-12 col-lg-6 order-last order-lg-first">
+        <h2 class="heading mt-3"><span>Best</span> Quality</h2>
+        <ol
+          class="fs-6 ms-md-2 ps-0 d-flex flex-column align-items-center align-items-lg-start gap-0 gap-lg-3 text-black quality-list">
+          <li>
+            <p class="text-dark">Lorem ipsum dolor sit amet consectetur.</p>
+          </li>
+          <li>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </li>
+          <li>
+            <p>Cumque impedit at eaque.</p>
+          </li>
+          <li>
+            <p>Culpa distinctio dicta vel.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="col-12 col-lg-6 d-flex order-first order-lg-last px-sm-5 px-lg-0">
+        <img src="./assets/glasses-1.png" class="mx-auto img-fluid object-fit-contain px-sm-5 px-lg-0" alt="" />
+      </div>
+    </section>
+
+    <!------------------------------------------------
+                             book
+    ---------------------------------------------- -->
+    <div class="row m-0 g-0 book">
+      <div class="col-12 col-lg-7 book-img-wraper">
+        <div class="d-flex justify-content-end  px-3 py-5 py-lg-5 px-sm-5 px-lg-0">
+          <img src="/assets/glasses-1.png" class="img-fluid object-fit-contain my-2 py-2 my-lg-5 py-lg-5 px-sm-5"
+            alt="" />
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 d-flex justify-content-start  bg-secondary">
+        <div class="p-5 h-100  book-content align-items-center align-content-lg-start">
+          <h2 class="heading mb-0 text-center text-lg-start">
+            Book our special offer
+          </h2>
+          <button class="btn mt-5 mt-lg-4">See More Offer</button>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------------------------
+                             buy
+    ---------------------------------------------- -->
+    <section class="container  box text-center">
+      <h2 class="heading mt-lg-5 lh-1">
+        <span>Buy</span> your stylish
+        <sapn class="light-heading">glasses</sapn>
+      </h2>
+      <div class="img-wraper px-sm-5 py-4 my-xl-3 mx-lg-5">
+        <img src="./assets/glasses-1.png" class="img-fluid object-fit-contain px-sm-5" alt="" />
+      </div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel facere
+        pariatur inventore perferendis distinctio rerum corrupti aspernatur
+        ullam modi. Ducimus sequi odit excepturi aspernatur repudiandae odio
+        animi ab deserunt fuga.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur a dipisicing elit. Vel facere
+        pariatur inventore perferendis distinctio rerum corrupti aspernatur
+        ullam modi. Ducimus sequi odit excepturi aspernatur repudiandae odio
+        animi ab deserunt fuga.
+      </p>
+      <button class="btn mx-auto">Book Now</button>
+    </section>
+
+    <!------------------------------------------------
+                             testimonial 
+    ---------------------------------------------- -->
+
+    <section class="container box  accordion-flush d-block text-center">
+      <h2 class="heading"><span>What</span> Says Our Cutomer</h2>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper pb-4">
+          <div class="swiper-slide container">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatum, id nostrum laborum pariatur aliquam iure
+              quidem possimus fugiat doloremque soluta quibusdam similique
+              minus amet placeat eligendi aperiam iste molestias autem facere
+              iusto est? Nam aperiam sint quae numquam dolores iusto est quam
+              sed quaerat in? Ullam, dolorum accusamus optio temporibus ad
+              obcaecati perspiciatis sunt, dolore maiores unde nesciunt
+              facilis.
+            </p>
+            <div class="people">
+              <div class="img-wraper">
+                <img src="./assets/people.png" alt="" />
+              </div>
+              <p>Lorem, ipsum</p>
+            </div>
+          </div>
+          <div class="swiper-slide container">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatum, id nostrum laborum pariatur aliquam iure
+              quidem possimus fugiat doloremque soluta quibusdam similique
+              minus amet placeat eligendi aperiam iste molestias autem facere
+              iusto est? Nam aperiam sint quae numquam dolores iusto est quam
+              sed quaerat in? Ullam, dolorum accusamus optio temporibus ad
+              obcaecati perspiciatis sunt, dolore maiores unde nesciunt
+              facilis.
+            </p>
+            <div class="people">
+              <div class="img-wraper">
+                <img src="./assets/people.png" alt="" />
+              </div>
+              <p>Lorem, ipsum</p>
+            </div>
+          </div>
+          <div class="swiper-slide container">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatum, id nostrum laborum pariatur aliquam iure
+              quidem possimus fugiat doloremque soluta quibusdam similique
+              minus amet placeat eligendi aperiam iste molestias autem facere
+              iusto est? Nam aperiam sint quae numquam dolores iusto est quam
+              sed quaerat in? Ullam, dolorum accusamus optio temporibus ad
+              obcaecati perspiciatis sunt, dolore maiores unde nesciunt
+              facilis.
+            </p>
+            <div class="people">
+              <div class="img-wraper">
+                <img src="./assets/people.png" alt="" />
+              </div>
+              <p>Lorem, ipsum</p>
+            </div>
+          </div>
+          <div class="swiper-slide container">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatum, id nostrum laborum pariatur aliquam iure
+              quidem possimus fugiat doloremque soluta quibusdam similique
+              minus amet placeat eligendi aperiam iste molestias autem facere
+              iusto est? Nam aperiam sint quae numquam dolores iusto est quam
+              sed quaerat in? Ullam, dolorum accusamus optio temporibus ad
+              obcaecati perspiciatis sunt, dolore maiores unde nesciunt
+              facilis.
+            </p>
+            <div class="people">
+              <div class="img-wraper">
+                <img src="./assets/people.png" alt="" />
+              </div>
+              <p>Lorem, ipsum</p>
+            </div>
+          </div>
+          <div class="swiper-slide container">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatum, id nostrum laborum pariatur aliquam iure
+              quidem possimus fugiat doloremque soluta quibusdam similique
+              minus amet placeat eligendi aperiam iste molestias autem facere
+              iusto est? Nam aperiam sint quae numquam dolores iusto est quam
+              sed quaerat in? Ullam, dolorum accusamus optio temporibus ad
+              obcaecati perspiciatis sunt, dolore maiores unde nesciunt
+              facilis.
+            </p>
+            <div class="people">
+              <div class="img-wraper">
+                <img src="./assets/people.png" alt="" />
+              </div>
+              <p>Lorem, ipsum</p>
+            </div>
+          </div>
+          <div class="swiper-slide container">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur voluptatum, id nostrum laborum pariatur aliquam iure
+              quidem possimus fugiat doloremque soluta quibusdam similique
+              minus amet placeat eligendi aperiam iste molestias autem facere
+              iusto est? Nam aperiam sint quae numquam dolores iusto est quam
+              sed quaerat in? Ullam, dolorum accusamus optio temporibus ad
+              obcaecati perspiciatis sunt, dolore maiores unde nesciunt
+              facilis.
+            </p>
+            <div class="people">
+              <div class="img-wraper">
+                <img src="./assets/people.png" alt="" />
+              </div>
+              <p>Lorem, ipsum</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination d-flex justify-content-center align-items-center"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="box bg-dark text-white" id="contanct" data-bs-theme="dark">
+    <div class="container">
+
+      <div class="">
+        <h3 class="text-center fs-1 mb-5">Request A call back</h3>
+        <form action="#" class="d-flex flex-column gap-3 w-75 mx-auto">
+          <input class="bg-dark border-0 border-bottom" type="text" placeholder="Name" />
+          <input class="bg-dark border-0 border-bottom" type="number" placeholder="Phone Number" />
+          <input class="bg-dark border-0 border-bottom" type="email" placeholder="Email" />
+          <textarea class="bg-dark border-0 border-bottom" name="message" rows="4" placeholder="Message"></textarea>
+          <input
+            class="bg-dark border border-3 border-white mx-auto mt-2 mt-md-4 mt-lg-5 btn text-uppercase rounded-pill submit-btn"
+            type="submit" value="send" />
+        </form>
+      </div>
+
+      <div class="row border-top border-white-50 m-0 mt-5 pt-5 justify-content-around justify-content-lg-between">
+        <div class="col-12 col-lg-6 col-xl-5">
+          <p class="">Subscribe now</p>
+          <div class="border-bottom border-white-50 d-flex py-2">
+            <input class="bg-dark border-0 w-100" type="email" placeholder="Enter your email" />
+            <input
+              class="bg-dark border border-3 border-white-50 btn text-uppercase rounded-pill submit-btn ms-auto me-0 accordion-button mt-0"
+              type="submit" value="Submit" />
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-5 row mt-5 mt-lg-0 text-center text-lg-start">
+          <div class="col-12 col-md-6 d-flex flex-column">
+            <h6 class="fs-5">Links</h6>
+            <a class="text-decoration-none text-white-50" href="#">Lorem, ipsum.</a>
+            <a class="text-decoration-none text-white-50" href="#">Quae, quam!</a>
+            <a class="text-decoration-none text-white-50" href="#">Labore, et.</a>
+            <a class="text-decoration-none text-white-50" href="#">Quaerat, amet?</a>
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column mt-5 mt-md-0">
+            <h6 class="fs-5">Contact us</h6>
+            <a class="text-decoration-none text-white-50" href="#">Lorem, ipsum.</a>
+            <a class="text-decoration-none text-white-50" href="#">Nulla, numquam.</a>
+            <a class="text-decoration-none text-white-50" href="#">Rerum, nesciunt?</a>
+            <a class="text-decoration-none text-white-50" href="#">Aspernatur, molestias!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="text-center bg-secondary m-0 p-2">
+    <p class="m-0 text-black">
+      © 2019 All Rights Reserved. By Free Html Templates
+    </p>
+  </div>
+
+  <!------------------------------------------------
+                             java script
+    ---------------------------------------------- -->
+  <script src="https://kit.fontawesome.com/e49ae458e9.js" crossorigin="anonymous"></script>
+  <!--fontawesome-->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!--swiper slider-->
+
+  <script src="/bootstrap.bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".hero-swiper", {
+      loop: true,
+
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    const mySwiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
